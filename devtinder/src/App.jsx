@@ -8,6 +8,7 @@ import appStore from "../utils/appStore";
 import Feed from "../Components/Feed";
 import Connections from "../Components/Connections";
 import Requests from "../Components/Requests";
+import Chat from "../Components/Chat";
 
 
 const appRouter = createBrowserRouter([
@@ -35,6 +36,10 @@ const appRouter = createBrowserRouter([
         path : 'requests',
         element : <Requests/>
       },
+      {
+        path : 'chat/:targetUserId',
+        element : <Chat/>
+      }
     ],
   },
 ]);

@@ -30,3 +30,12 @@
 -when we click on accepted and rejected it should be updated in the database and shows it as a 
 connection when we click on accepted.
 
+# implement real-time chat application using web sockets
+
+- create a schema to store the messages permanently
+- show green symbol when two people are online
+- cannot chat with the user who is not his friend
+- limit messages when fetching from db
+
+
+
