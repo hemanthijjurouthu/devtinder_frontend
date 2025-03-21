@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="navbar bg-base-300 text-white shadow-lg px-6 py-4">
       <div className="flex-1 flex items-center gap-3">
         <img 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_JQGaxBnOqLYWK3b6Z4dbXx9sMl_YSGOuhQ&s" // Replace with your image URL or path
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_JQGaxBnOqLYWK3b6Z4dbXx9sMl_YSGOuhQ&s"
           alt="DevTinder Logo"
           className="w-10 h-10 object-cover rounded-full"
         />
@@ -70,6 +70,10 @@ const Navbar = () => {
             <li>
               <Link to="/requests" className="hover:bg-indigo-700 transition-colors duration-300 rounded-md px-3 py-2 text-[17px]">
                 Received Requests
+              </Link>
+            </li>
+            <li>
+              <Link to="/premium" className="hover:bg-indigo-700 transition-colors duration-300 rounded-md px-3 py-2 text-[17px]">  Premium
               </Link>
             </li>
             <li>

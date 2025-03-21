@@ -51,9 +51,7 @@ const Chat = () => {
       setMessages((prev) => [...prev, { sender: userId,firstName,lastName, text: newMessage }]);
     });
 
-    return () => {
-      socket.disconnect();
-    }
+    
   },[userId,targetUserId]);
 
   return (

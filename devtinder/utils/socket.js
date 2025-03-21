@@ -9,7 +9,7 @@ export const createSocketConnection = () => {
         });
     } else {
         return io("https://ijjurouthu.duckdns.org", {
-            path: "/api/socket-io/", // Ensure this matches Nginx location
+            path: "/api/socket-io/", 
             transports: ["websocket", "polling"],
             withCredentials: true
         });
