@@ -7,7 +7,7 @@ const Premium = () => {
 
   const verifyPremiumUser = async () => {
     try {
-      const res = await axios.get(BASE_URL + "/payment/verify", { withCredentials: true });
+      const res = await axios.get(BASE_URL + "/premium/verify", { withCredentials: true });
       setIsPremium(res.data.premium);
     } catch (err) {
       console.error("ERROR:", err.message);
