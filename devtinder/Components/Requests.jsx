@@ -36,8 +36,8 @@ const Requests = () => {
 
   if (!requests || requests.length === 0) {
     return (
-      <div className="flex items-center justify-center h-screen bg-base-200">
-        <h1 className="text-2xl font-semibold text-gray-700">No Requests Received</h1>
+      <div className="flex items-center justify-center my-20">
+        <h1 className="text-2xl font-semibold">No Requests Received</h1>
       </div>
     );
   }

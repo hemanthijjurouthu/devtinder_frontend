@@ -50,7 +50,7 @@ const Login = () => {
 
   const toggleForm = () => {
     setLoginForm((prev) => !prev);
-    setError(""); 
+    setError("");
     setFirstName("");
     setLastName("");
     setEmailId("");
@@ -143,4 +143,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login
