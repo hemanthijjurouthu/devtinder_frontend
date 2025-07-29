@@ -8,8 +8,7 @@ export const createSocketConnection = () => {
             withCredentials: true
         });
     } else {
-        return io("https://ijjurouthu.duckdns.org", {
-            path: "/api/socket-io/", 
+        return io("https://dev-tinder-1-q58x.onrender.com", { 
             transports: ["websocket", "polling"],
             withCredentials: true
         });
