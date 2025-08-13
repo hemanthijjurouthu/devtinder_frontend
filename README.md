@@ -4,7 +4,7 @@ DevTinder is a modern matchmaking platform for developers to connect, collaborat
 
 ## 🌐 Live Demo
 
-👉 [**Click here to try it out!**](https://dev-tinder-7ghd-ah3gvuwq0-hemanths-projects-21c6a1fe.vercel.app)
+👉 [**Click here to try it out!**](https://dev-tinder-7ghd.vercel.app)
 
 ## 🚀 Features
 
